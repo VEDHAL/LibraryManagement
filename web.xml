@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Examplees.java</display-name>
+ <servlet>
+ <servlet-name>abc</servlet-name>
+ <servlet-class>controller.advjava.Userservlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>abc</servlet-name>
+ <url-pattern>/useraction</url-pattern>
+ </servlet-mapping>
+
+<servlet>
+<servlet-name>KKK</servlet-name>
+ <servlet-class>controller.advjava.Studentservlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>KKK</servlet-name>
+ <url-pattern>/Student</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+<servlet-name>Kr</servlet-name>
+ <servlet-class> controller.advjava.Getuserformservlet </servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>Kr</servlet-name>
+ <url-pattern>/getuser </url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+<servlet-name>upd</servlet-name>
+ <servlet-class> controller.advjava.Updateuserservlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>upd</servlet-name>
+ <url-pattern>/update </url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+<servlet-name>dlt</servlet-name>
+ <servlet-class> controller.advjava.Deleteservlet</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>dlt</servlet-name>
+ <url-pattern>/delete</url-pattern>
+ </servlet-mapping>
+ </web-app>
